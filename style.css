@@ -1,0 +1,42 @@
+body{
+    font-family:Helvetica;
+    text-align: center;
+    color: white;
+    background-color: rgb(15, 15, 45);
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex; /* faz com que os elementos fiquem do lado do outro */
+    justify-content: space-between; /* os elementos ficam distantes  */
+    padding: 20px;
+    border-bottom: 1px solid rgb(37, 37, 137);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+ul li{
+    margin-right: 10px;
+}
+ul li a{
+    color: white;
+}
+h1{
+    font-size: 32px;
+}
+img{
+    border: 3px solid rgb(0, 0, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 300px;
+    height: 300px;
+}
+footer{
+    border-top: 1px solid rgb(37, 37, 137);
+    margin-top: 20px;
+    padding: 20px;
+}
